@@ -5,9 +5,11 @@ import PerfectScrollbar from "perfect-scrollbar";
 import "perfect-scrollbar/css/perfect-scrollbar.css";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
+import Box from '@material-ui/core/Box';
 // core components
 import Navbar from "../components/Navbars/Navbar.js";
 import Sidebar from "../components/Sidebar/Sidebar.js";
+
 
 import routes from "../routes.js";
 
@@ -27,7 +29,7 @@ const switchRoutes = (
       if (prop.layout === "/admin") {
         return (
           <Route
-            path={prop.layout + prop.path}
+            path={`/dashboard${prop.layout} ${prop.path}`}
             component={prop.component}
             key={key}
           />
@@ -107,11 +109,14 @@ export default function Admin({ ...rest }) {
         {...rest}
       />
       <div className={classes.mainPanel} ref={mainPanel}>
+      <Box m={4} pt={3}>
         <Navbar
           routes={routes}
           handleDrawerToggle={handleDrawerToggle}
           {...rest}
+         
         />
+        </Box>
         {/* On the /maps route we want the map to be on full screen - this is not possible if the content and conatiner classes are present because they have some paddings which would make the map smaller */}
         {/* {getRoute() ? (
           <div className={classes.content}>
@@ -121,8 +126,8 @@ export default function Admin({ ...rest }) {
         ) : (
           <div className={classes.map}>{switchRoutes}</div>
         )} */}
-        {/* <Switch> <Route path='/admin/user' component={UserProfile}/></Switch> */}
-        <UserProfile/>
+        {switchRoutes}
+      
         {/* {getRoute() ? <Footer /> : null}
         <FixedPlugin
           handleImageClick={handleImageClick}
