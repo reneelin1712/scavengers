@@ -20,6 +20,13 @@ import team1 from "../../assets/img/faces/avatar.jpg";
 import team2 from "../../assets/img/faces/christian.jpg";
 import team3 from "../../assets/img/faces/kendall.jpg";
 
+import lusi from "../../assets/img/faces/lusi.jfif";
+import cheah from "../../assets/img/faces/cheah.jfif";
+import renee from "../../assets/img/faces/renee.jfif";
+import james from "../../assets/img/faces/james.png";
+import xin from "../../assets/img/faces/xin.jfif";
+import silvie from "../../assets/img/faces/silvie.jfif";
+
 const useStyles = makeStyles(styles);
 
 export default function TeamSection() {
@@ -31,133 +38,235 @@ export default function TeamSection() {
   );
   return (
     <div className={classes.section}>
-      <h2 className={classes.title}>Here is our team</h2>
+      <h2 className={classes.title}>Our team</h2>
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team1} alt="..." className={imageClasses} />
+                <img src={lusi} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Gigi Hadid
+                Lusi Ou
                 <br />
-                <small className={classes.smallTitle}>Model</small>
+                <small className={classes.smallTitle}>CFO</small>
               </h4>
-              <CardBody>
-                <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
-                </p>
-              </CardBody>
-              <CardFooter className={classes.justifyCenter}>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-twitter"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-instagram"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-facebook"} />
-                </Button>
-              </CardFooter>
             </Card>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team2} alt="..." className={imageClasses} />
+                <img src={cheah} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Christian Louboutin
+                Cheah Zhong Xiang
                 <br />
-                <small className={classes.smallTitle}>Designer</small>
+                <small className={classes.smallTitle}>CEO</small>
               </h4>
-              <CardBody>
-                <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
-                </p>
-              </CardBody>
-              <CardFooter className={classes.justifyCenter}>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-twitter"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-linkedin"} />
-                </Button>
-              </CardFooter>
             </Card>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team3} alt="..." className={imageClasses} />
+                <img src={xin} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Kendall Jenner
+                Xin
                 <br />
-                <small className={classes.smallTitle}>Model</small>
+                <small className={classes.smallTitle}>COO</small>
               </h4>
-              <CardBody>
-                <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
-                </p>
-              </CardBody>
-              <CardFooter className={classes.justifyCenter}>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-twitter"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-instagram"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-facebook"} />
-                </Button>
-              </CardFooter>
             </Card>
           </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                <img src={james} alt="..." className={imageClasses} />
+              </GridItem>
+              <h4 className={classes.cardTitle}>
+                James Nguyen
+                <br />
+                <small className={classes.smallTitle}>CTO</small>
+              </h4>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                <img src={renee} alt="..." className={imageClasses} />
+              </GridItem>
+              <h4 className={classes.cardTitle}>
+                Renee Lin
+                <br />
+                <small className={classes.smallTitle}>CIO</small>
+              </h4>
+            </Card>
+          </GridItem>
+            <GridItem xs={12} sm={12} md={4}>
+                <Card plain>
+                    <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                        <img src={silvie} alt="..." className={imageClasses} />
+                    </GridItem>
+                    <h4 className={classes.cardTitle}>
+                        Silvie Ketelaars
+                        <br />
+                        <small className={classes.smallTitle}>CMO</small>
+                    </h4>
+                </Card>
+            </GridItem>
+            <GridItem xs={12} sm={12} md={4}>
+                <Card plain>
+                    <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                        <img src={renee} alt="..." className={imageClasses} />
+                    </GridItem>
+                    <h4 className={classes.cardTitle}>
+                        Candice
+                        <br />
+                        <small className={classes.smallTitle}>CIO</small>
+                    </h4>
+                </Card>
+            </GridItem>
         </GridContainer>
       </div>
     </div>
   );
 }
+
+// export default function TeamSection() {
+//   const classes = useStyles();
+//   const imageClasses = classNames(
+//     classes.imgRaised,
+//     classes.imgRoundedCircle,
+//     classes.imgFluid
+//   );
+//   return (
+//     <div className={classes.section}>
+//       <h2 className={classes.title}>Here is our team</h2>
+//       <div>
+//         <GridContainer>
+//           <GridItem xs={12} sm={12} md={4}>
+//             <Card plain>
+//               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+//                 <img src={team1} alt="..." className={imageClasses} />
+//               </GridItem>
+//               <h4 className={classes.cardTitle}>
+//                 Gigi Hadid
+//                 <br />
+//                 <small className={classes.smallTitle}>Model</small>
+//               </h4>
+//               <CardBody>
+//                 <p className={classes.description}>
+//                   You can write here details about one of your team members. You
+//                   can give more details about what they do. Feel free to add
+//                   some <a href="#pablo">links</a> for people to be able to
+//                   follow them outside the site.
+//                 </p>
+//               </CardBody>
+//               <CardFooter className={classes.justifyCenter}>
+//                 <Button
+//                   justIcon
+//                   color="transparent"
+//                   className={classes.margin5}
+//                 >
+//                   <i className={classes.socials + " fab fa-twitter"} />
+//                 </Button>
+//                 <Button
+//                   justIcon
+//                   color="transparent"
+//                   className={classes.margin5}
+//                 >
+//                   <i className={classes.socials + " fab fa-instagram"} />
+//                 </Button>
+//                 <Button
+//                   justIcon
+//                   color="transparent"
+//                   className={classes.margin5}
+//                 >
+//                   <i className={classes.socials + " fab fa-facebook"} />
+//                 </Button>
+//               </CardFooter>
+//             </Card>
+//           </GridItem>
+//           <GridItem xs={12} sm={12} md={4}>
+//             <Card plain>
+//               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+//                 <img src={team2} alt="..." className={imageClasses} />
+//               </GridItem>
+//               <h4 className={classes.cardTitle}>
+//                 Christian Louboutin
+//                 <br />
+//                 <small className={classes.smallTitle}>Designer</small>
+//               </h4>
+//               <CardBody>
+//                 <p className={classes.description}>
+//                   You can write here details about one of your team members. You
+//                   can give more details about what they do. Feel free to add
+//                   some <a href="#pablo">links</a> for people to be able to
+//                   follow them outside the site.
+//                 </p>
+//               </CardBody>
+//               <CardFooter className={classes.justifyCenter}>
+//                 <Button
+//                   justIcon
+//                   color="transparent"
+//                   className={classes.margin5}
+//                 >
+//                   <i className={classes.socials + " fab fa-twitter"} />
+//                 </Button>
+//                 <Button
+//                   justIcon
+//                   color="transparent"
+//                   className={classes.margin5}
+//                 >
+//                   <i className={classes.socials + " fab fa-linkedin"} />
+//                 </Button>
+//               </CardFooter>
+//             </Card>
+//           </GridItem>
+//           <GridItem xs={12} sm={12} md={4}>
+//             <Card plain>
+//               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+//                 <img src={team3} alt="..." className={imageClasses} />
+//               </GridItem>
+//               <h4 className={classes.cardTitle}>
+//                 Kendall Jenner
+//                 <br />
+//                 <small className={classes.smallTitle}>Model</small>
+//               </h4>
+//               <CardBody>
+//                 <p className={classes.description}>
+//                   You can write here details about one of your team members. You
+//                   can give more details about what they do. Feel free to add
+//                   some <a href="#pablo">links</a> for people to be able to
+//                   follow them outside the site.
+//                 </p>
+//               </CardBody>
+//               <CardFooter className={classes.justifyCenter}>
+//                 <Button
+//                   justIcon
+//                   color="transparent"
+//                   className={classes.margin5}
+//                 >
+//                   <i className={classes.socials + " fab fa-twitter"} />
+//                 </Button>
+//                 <Button
+//                   justIcon
+//                   color="transparent"
+//                   className={classes.margin5}
+//                 >
+//                   <i className={classes.socials + " fab fa-instagram"} />
+//                 </Button>
+//                 <Button
+//                   justIcon
+//                   color="transparent"
+//                   className={classes.margin5}
+//                 >
+//                   <i className={classes.socials + " fab fa-facebook"} />
+//                 </Button>
+//               </CardFooter>
+//             </Card>
+//           </GridItem>
+//         </GridContainer>
+//       </div>
+//     </div>
+//   );
+// }

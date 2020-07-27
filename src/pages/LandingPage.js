@@ -18,9 +18,9 @@ import Parallax from "../components/Parallax/Parallax.js";
 import styles from "../assets/jss/landingPage.js";
 
 // Sections for this page
-// import ProductSection from "./Sections/ProductSection.js";
+import ProductSection from "./sections/ProductSection";
 import TeamSection from "./sections/TeamSection.js";
-// import WorkSection from "./Sections/WorkSection.js";
+import WorkSection from "./sections/WorkSection.js";
 
 const dashboardRoutes = [];
 
@@ -72,8 +72,8 @@ const LandingPage= (props) =>{
       
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container} >
-          {/* <ProductSection />
-          <WorkSection /> */}
+          <ProductSection />
+          <WorkSection />
         <TeamSection />
         </div>
       </div>
