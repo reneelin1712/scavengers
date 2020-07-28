@@ -21,7 +21,7 @@ import lusi from "../../assets/img/faces/lusi.jfif";
 import cheah from "../../assets/img/faces/cheah.jfif";
 import renee from "../../assets/img/faces/renee.jfif";
 import james from "../../assets/img/faces/james.png";
-import xin from "../../assets/img/faces/xin.jfif";
+import xin from "../../assets/img/faces/XIN.jpeg";
 import silvie from "../../assets/img/faces/silvie.jfif";
 import candice from "../../assets/img/faces/candice.png";
 import JASON from "../../assets/img/faces/JASON.jfif";
@@ -45,88 +45,102 @@ export default function TeamSection() {
             <div>
                 <GridContainer>
                     <GridItem xs={12} sm={12} md={4}>
+                    <Link href={"https://www.linkedin.com/in/lusi-ou-the-university-of-queensland/"} style={{color: "#3C4858"}} target="_blank">
                         <Card plain>
                             <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                                 <img src={lusi} alt="..." className={imageClasses} />
                             </GridItem>
                             <h2 className={classes.cardTitle} style={{fontSize: '1.5rem'}}>
-                                <Link href={"https://www.linkedin.com/in/lusi-ou-the-university-of-queensland/"} style={{color: "#3C4858"}}>Lusi Ou</Link>
+                                Lusi Ou
                                 <br />
                                 <small className={classes.smallTitle}>CFO</small>
                             </h2>
                         </Card>
+                        </Link>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={4}>
+                    <Link href={"https://www.linkedin.com/in/cheah-zhong-xiang/"} style={{color: "#3C4858"}} target="_blank">
                         <Card plain>
                             <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                                 <img src={cheah} alt="..." className={imageClasses} />
                             </GridItem>
                             <h2 className={classes.cardTitle} style={{fontSize: '1.5rem'}}>
-                                <Link href={"https://www.linkedin.com/in/cheah-zhong-xiang/"} style={{color: "#3C4858"}}>Cheah Xiang</Link>
+                               Cheah Xiang
                                 <br />
                                 <small className={classes.smallTitle}>CEO</small>
                             </h2>
                         </Card>
+                        </Link>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={4}>
+                    <Link href={"https://www.linkedin.com/in/xin-3105731b1/"} style={{color: "#3C4858"}} target="_blank">
                         <Card plain>
                             <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                                 <img src={xin} alt="..." className={imageClasses} />
                             </GridItem>
                             <h2 className={classes.cardTitle} style={{fontSize: '1.5rem'}}>
-                                <Link href={"https://www.linkedin.com/in/xin-3105731b1/"} style={{color: "#3C4858"}}>Xin Gao</Link>
+                                Xin Gao
                                 <br />
                                 <small className={classes.smallTitle}>COO</small>
                             </h2>
                         </Card>
+                        </Link>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={3}>
+                    <Link href={"https://www.linkedin.com/in/jamesnguyen868/"} style={{color: "#3C4858"}} target="_blank">
                         <Card plain>
                             <GridItem xs={12} sm={12} md={8} className={classes.itemGrid}>
                                 <img src={james} alt="..." className={imageClasses} style={{width: "11em"}}/>
                             </GridItem>
                             <h2 className={classes.cardTitle} style={{fontSize: '1.5rem'}}>
-                                <Link href={"https://www.linkedin.com/in/jamesnguyen868/"} style={{color: "#3C4858"}}>James Nguyen</Link>
+                                James Nguyen
                                 <br />
                                 <small className={classes.smallTitle}>CTO</small>
                             </h2>
                         </Card>
+                        </Link>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={3}>
+                    <Link href={"https://www.linkedin.com/in/renee-lin-5852a0189/"} style={{color: "#3C4858"}} target="_blank">
                         <Card plain>
                             <GridItem xs={12} sm={12} md={8} className={classes.itemGrid}>
                                 <img src={renee} alt="..." className={imageClasses} style={{width: "11em"}}/>
                             </GridItem>
                             <h2 className={classes.cardTitle} style={{fontSize: '1.5rem'}}>
-                                <Link href={"https://www.linkedin.com/in/renee-lin-5852a0189/"} style={{color: "#3C4858"}}>Renee Lin</Link>
+                                Renee Lin
                                 <br />
                                 <small className={classes.smallTitle}>CIO</small>
                             </h2>
                         </Card>
+                        </Link>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={3}>
+                    <Link href={"https://www.linkedin.com/in/silvieketelaars/"} style={{color: "#3C4858"}} target="_blank">
                         <Card plain>
                             <GridItem xs={12} sm={12} md={8} className={classes.itemGrid}>
                                 <img src={silvie} alt="..." className={imageClasses} style={{width: "11em"}}/>
                             </GridItem>
                             <h2 className={classes.cardTitle} style={{fontSize: '1.5rem'}}>
-                                <Link href={"https://www.linkedin.com/in/silvieketelaars/"} style={{color: "#3C4858"}}>Silvie Ketelaars</Link>
+                                Silvie Ketelaars
                                 <br />
                                 <small className={classes.smallTitle}>CMO</small>
                             </h2>
                         </Card>
+                        </Link>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={3}>
+                    <Link href={"https://www.linkedin.com/in/candice-c-895634187/"} style={{color: "#3C4858"}} target="_blank">
                         <Card plain>
                             <GridItem xs={12} sm={12} md={8} className={classes.itemGrid}>
                                 <img src={candice} alt="..." className={imageClasses} style={{width: "11em"}}/>
                             </GridItem>
                             <h2 className={classes.cardTitle} style={{fontSize: '1.5rem'}}>
-                                <Link href={"https://www.linkedin.com/in/candice-c-895634187/"} style={{color: "#3C4858"}}>Candice Chang</Link>
+                               Candice Chang
                                 <br />
                                 <small className={classes.smallTitle}>CRO</small>
                             </h2>
                         </Card>
+                        </Link>
                     </GridItem>
                 </GridContainer>
             </div>
@@ -137,52 +151,60 @@ export default function TeamSection() {
             <div>
                 <GridContainer>
                     <GridItem xs={12} sm={12} md={3}>
+                    <Link href={"https://www.linkedin.com/in/jasontitman/"} style={{color: "#3C4858"}} target="_blank">
                         <Card plain>
                             <GridItem xs={12} sm={12} md={8} className={classes.itemGrid}>
                                 <img src={JASON} alt="..." className={imageClasses} />
                             </GridItem>
                             <h2 className={classes.cardTitle} style={{fontSize: '1.5rem'}}>
-                                <Link href={"https://www.linkedin.com/in/jasontitman/"} style={{color: "#3C4858"}}>JASON TITMAN</Link>
+                                JASON TITMAN
                                 <br />
                                 <small className={classes.smallTitle}>INTEGR8 GROUP</small>
                             </h2>
                         </Card>
+                        </Link>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={3}>
+                    <Link href={"https://www.linkedin.com/in/lacey-webb/"} style={{color: "#3C4858"}} target="_blank">
                         <Card plain>
                             <GridItem xs={12} sm={12} md={8} className={classes.itemGrid}>
                                 <img src={LACEY} alt="..." className={imageClasses} />
                             </GridItem>
                             <h2 className={classes.cardTitle} style={{fontSize: '1.5rem'}}>
-                                <Link href={"https://www.linkedin.com/in/lacey-webb/"} style={{color: "#3C4858"}}>LACEY WEBB</Link>
+                               LACEY WEBB
                                 <br />
                                 <small className={classes.smallTitle}>RESOURCE HUB</small>
                             </h2>
                         </Card>
+                        </Link>
                     </GridItem>
                     <GridItem xs={12} sm={12} md={3}>
+                    <Link href={"https://www.linkedin.com/in/cameron-mckenzie-99197271/"} style={{color: "#3C4858"}} target="_blank">
                         <Card plain>
                             <GridItem xs={12} sm={12} md={8} className={classes.itemGrid}>
                                 <img src={CAMERON} alt="..." className={imageClasses} />
                             </GridItem>
                             <h2 className={classes.cardTitle} style={{fontSize: '1.5rem'}}>
-                                <Link href={"https://www.linkedin.com/in/cameron-mckenzie-99197271/"} style={{color: "#3C4858"}}>CAMERON MCKENZIE</Link>
+                                CAMERON MCKENZIE
                                 <br />
                                 <small className={classes.smallTitle}>ASPIRE</small>
                             </h2>
                         </Card>
+                        </Link>
                     </GridItem>
                     <GridItem xs={12} sm={3} md={3}>
+                    <Link href={"https://www.linkedin.com/in/savvy-rick-brown/"} style={{color: "#3C4858"}} target="_blank">
                         <Card plain>
                             <GridItem xs={12} sm={12} md={8} className={classes.itemGrid}>
                                 <img src={RICK} alt="..." className={imageClasses} style={{width: "11em"}}/>
                             </GridItem>
                             <h2 className={classes.cardTitle} style={{fontSize: '1.5rem'}}>
-                                <Link href={"https://www.linkedin.com/in/savvy-rick-brown/"} style={{color: "#3C4858"}}>RICK BROWN</Link>
+                               RICK BROWN
                                 <br />
                                 <small className={classes.smallTitle}>JENKINS & BROWN</small>
                             </h2>
                         </Card>
+                        </Link>
                     </GridItem>
                 </GridContainer>
             </div>
