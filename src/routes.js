@@ -29,7 +29,7 @@ import Language from "@material-ui/icons/Language";
 import UserProfile from "./views/UserProfile/UserProfile.js";
 import TableList from "./views/TableList/TableList.js";
 import Report from "./views/Report/Report";
-import Maps from "./views/Maps/Maps";
+import Maps from "./views/Maps/Maps123";
 
 const dashboardRoutes = [
   // {
