@@ -20,10 +20,10 @@ export default function WorkSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Work with us</h2>
-          <h4 className={classes.description}>
+            <h2 className={classes.title} style={{fontSize: '2.4rem'}}>WORK WITH US</h2>
+          <h3 className={classes.description}>
               Fill out the form below or call us. Our team will shortly be in touch with you.
-          </h4>
+          </h3>
           <form>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>

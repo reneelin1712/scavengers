@@ -21,11 +21,27 @@ import styles from "../assets/jss/landingPage.js";
 import ProductSection from "./sections/ProductSection";
 import TeamSection from "./sections/TeamSection.js";
 import WorkSection from "./sections/WorkSection.js";
+import logo from '../assets/img/logo.png';
+import styled from 'styled-components';
 
 const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
+const Div = styled.div`
+  max-width: 100%;
+  width: 100px;
+`;
+const Image = styled.img`
+  width: 100px;
+`;
+const Logo = () => {
+    return (
+        <Div>
+            <Image src={logo} alt="brand"/>
+        </Div>
+        )
 
+}
 const LandingPage= (props) =>{
   const classes = useStyles();
   const { ...rest } = props;
@@ -34,8 +50,8 @@ const LandingPage= (props) =>{
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="Scavengers"
         rightLinks={<HeaderLinks />}
+        leftLinks={<Logo />}
         fixed
         changeColorOnScroll={{
           height: 400,
@@ -47,8 +63,8 @@ const LandingPage= (props) =>{
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-            <h1 className={classes.title} style={{fontSize: '4.3em'}}>Scavengers</h1>
-              <h4>Seeing treasure in trash, turning waste to wealth.</h4>
+            <h1 className={classes.title} style={{fontSize: '4.1em'}}>SCAVENGERS</h1>
+              <h3>Seeing treasure in trash, turning waste to wealth.</h3>
               <br />
               <Button
                 color="danger"
@@ -68,8 +84,8 @@ const LandingPage= (props) =>{
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container} >
           <ProductSection />
-          <WorkSection />
         <TeamSection />
+            <WorkSection />
         </div>
       </div>
       <Footer />

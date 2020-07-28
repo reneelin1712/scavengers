@@ -54,7 +54,7 @@ const infoStyle = {
     color: grayColor,
     overflow: "hidden",
     marginTop: "0px",
-    fontSize: "14px"
+    fontSize: "1.1rem"
   },
   iconWrapperVertical: {
     float: "none"

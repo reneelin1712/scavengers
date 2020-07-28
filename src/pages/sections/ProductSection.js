@@ -29,10 +29,10 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Our partners</h2>
-          <h5 className={classes.description}>
+          <h2 className={classes.title} style={{fontSize: '2.4rem'}}>OUR PARTNERS</h2>
+          <h3 className={classes.description}>
           Help healthcare services turn operation cost into a revenue stream by recycling and repurposing their waste.
-          </h5>
+          </h3>
         </GridItem>
       </GridContainer>
       <div>
