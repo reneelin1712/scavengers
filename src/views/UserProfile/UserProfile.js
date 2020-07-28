@@ -13,7 +13,7 @@ import CardAvatar from "../../components/Card/CardAvatar.js";
 import CardBody from "../../components/Card/CardBody.js";
 import CardFooter from "../../components/Card/CardFooter.js";
 
-import avatar from "../../assets/img/faces/marc.jpg";
+import hospital from "../../assets/img/hospital.svg"
 
 const styles = {
   cardCategoryWhite: {
@@ -51,19 +51,19 @@ export default function UserProfile() {
               <GridContainer>
                 <GridItem xs={12} sm={12} md={5}>
                   <CustomInput
-                    labelText="Company (disabled)"
+                    labelText="Hospital X"
                     id="company-disabled"
                     formControlProps={{
                       fullWidth: true
                     }}
-                    inputProps={{
-                      disabled: true
-                    }}
+                    // inputProps={{
+                    //   disabled: true
+                    // }}
                   />
                 </GridItem>
                 <GridItem xs={12} sm={12} md={3}>
                   <CustomInput
-                    labelText="Username"
+                    labelText="HospitalX2020"
                     id="username"
                     formControlProps={{
                       fullWidth: true
@@ -72,7 +72,7 @@ export default function UserProfile() {
                 </GridItem>
                 <GridItem xs={12} sm={12} md={4}>
                   <CustomInput
-                    labelText="Email address"
+                    labelText="waste_management@hospitalx.com"
                     id="email-address"
                     formControlProps={{
                       fullWidth: true
@@ -80,7 +80,7 @@ export default function UserProfile() {
                   />
                 </GridItem>
               </GridContainer>
-              <GridContainer>
+              {/* <GridContainer>
                 <GridItem xs={12} sm={12} md={6}>
                   <CustomInput
                     labelText="First Name"
@@ -99,11 +99,11 @@ export default function UserProfile() {
                     }}
                   />
                 </GridItem>
-              </GridContainer>
+              </GridContainer> */}
               <GridContainer>
                 <GridItem xs={12} sm={12} md={4}>
                   <CustomInput
-                    labelText="City"
+                    labelText="Brisbane"
                     id="city"
                     formControlProps={{
                       fullWidth: true
@@ -112,7 +112,7 @@ export default function UserProfile() {
                 </GridItem>
                 <GridItem xs={12} sm={12} md={4}>
                   <CustomInput
-                    labelText="Country"
+                    labelText="Australia"
                     id="country"
                     formControlProps={{
                       fullWidth: true
@@ -121,7 +121,7 @@ export default function UserProfile() {
                 </GridItem>
                 <GridItem xs={12} sm={12} md={4}>
                   <CustomInput
-                    labelText="Postal Code"
+                    labelText="4000"
                     id="postal-code"
                     formControlProps={{
                       fullWidth: true
@@ -131,9 +131,9 @@ export default function UserProfile() {
               </GridContainer>
               <GridContainer>
                 <GridItem xs={12} sm={12} md={12}>
-                  <InputLabel style={{ color: "#AAAAAA" }}>About me</InputLabel>
+                  <InputLabel style={{ color: "#AAAAAA" }}>Description</InputLabel>
                   <CustomInput
-                    labelText="Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo."
+                    labelText="Save the medical waste from ending up to the landfill."
                     id="about-me"
                     formControlProps={{
                       fullWidth: true
@@ -155,16 +155,14 @@ export default function UserProfile() {
           <Card profile>
             <CardAvatar profile>
               <a href="#pablo" onClick={e => e.preventDefault()}>
-                <img src={avatar} alt="..." />
+                <img src={hospital} alt="..." />
               </a>
             </CardAvatar>
             <CardBody profile>
-              <h6 className={classes.cardCategory}>CEO / CO-FOUNDER</h6>
-              <h4 className={classes.cardTitle}>Alec Thompson</h4>
+              <h6 className={classes.cardCategory}>Founded 1959</h6>
+              <h4 className={classes.cardTitle}>Hospital X</h4>
               <p className={classes.description}>
-                Don{"'"}t be scared of the truth because we need to restart the
-                human foundation in truth And I love you like Kanye loves Kanye
-                I love Rick Owens’ bed design but the back is...
+              A tertiary level teaching hospital with all major medical and surgical specialities onsite except for obstetrics, gynaecology and paediatrics. 
               </p>
               <Button color="primary" round>
                 Follow

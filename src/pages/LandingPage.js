@@ -43,22 +43,17 @@ const LandingPage= (props) =>{
         }}
         {...rest}
       />
-      <Parallax filter image={require("../assets/img/landing-bg.jpg")}>
+      <Parallax filter image={require("../assets/img/landing-img.png")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Scavengers.</h1>
-              <h4>
-                djfksjfkfjkdfjdkjdjfksjfkfjkdfjdkjdjfksjfkfjkdfjdkjdjfksjfkfjkdfjdkjdjfksjfkfjkdfjdkj
-                djfksjfkfjkdfjdkjdjfksjfkfjkdfjdkjdjfksjfkfjkdfjdkjdjfksjfkfjkdfjdkj
-                djfksjfkfjkdfjdkjdjfksjfkfjkdfjdkjdjfksjfkfjkdfjdkjdjfksjfkfjkdfjdkjdjfksjfkfjkdfjdkj
-                djfksjfkfjkdfjdkjdjfksjfkfjkdfjdkjdjfksjfkfjkdfjdkjdjfksjfkfjkdfjdkj
-              </h4>
+            <h1 className={classes.title} style={{fontSize: '4.3em'}}>Scavengers</h1>
+              <h4>Seeing treasure in trash, turning waste to wealth.</h4>
               <br />
               <Button
                 color="danger"
                 size="lg"
-                href="https://www.youtube.com/"
+                href="https://www.youtube.com/watch?v=60vDnOeAcoA"
                 target="_blank"
                 rel="noopener noreferrer"
               >

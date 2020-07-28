@@ -3,20 +3,20 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-import Chat from "@material-ui/icons/Chat";
-import VerifiedUser from "@material-ui/icons/VerifiedUser";
-import Fingerprint from "@material-ui/icons/Fingerprint";
+// import Chat from "@material-ui/icons/Chat";
+// import VerifiedUser from "@material-ui/icons/VerifiedUser";
+// import Fingerprint from "@material-ui/icons/Fingerprint";
 // core components
 import GridContainer from "../../components/Grid/GridContainer.js";
 import GridItem from "../../components/Grid/GridItem.js";
 import InfoArea from "../../components/InfoArea/InfoArea.js";
-import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
-import StoreIcon from '@material-ui/icons/Store';
+// import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
+// import StoreIcon from '@material-ui/icons/Store';
 import styles from "../../assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
-import ApartmentIcon from '@material-ui/icons/Apartment';
-import SchoolIcon from '@material-ui/icons/School';
+// import ApartmentIcon from '@material-ui/icons/Apartment';
+// import SchoolIcon from '@material-ui/icons/School';
 import {Service} from '@styled-icons/remix-fill/Service';
-import {Hospital} from '@styled-icons/fa-solid/Hospital';
+// import {Hospital} from '@styled-icons/fa-solid/Hospital';
 import {RestoreFromTrash} from '@styled-icons/material/RestoreFromTrash';
 import {HandHoldingMedical} from '@styled-icons/fa-solid/HandHoldingMedical';
 import {University} from '@styled-icons/fa-solid/University';

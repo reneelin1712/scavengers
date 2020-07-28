@@ -28,7 +28,8 @@ import Language from "@material-ui/icons/Language";
 
 import UserProfile from "./views/UserProfile/UserProfile.js";
 import TableList from "./views/TableList/TableList.js";
-import Typography from "./views/Typography/Typography.js";
+import Report from "./views/Report/Report";
+import Maps from "./views/Maps/Maps";
 
 const dashboardRoutes = [
   // {
@@ -55,20 +56,20 @@ const dashboardRoutes = [
     component: TableList,
     layout: "/admin",
   },
-  // {
-  //   path: "/maps",
-  //   name: "Tracing Maps",
-  //   rtlName: "خرائط",
-  //   icon: LocationOn,
-  //   component: Maps,
-  //   layout: "/admin",
-  // },
   {
-    path: "/typography",
+    path: "/maps",
+    name: "Tracing Maps",
+    rtlName: "خرائط",
+    icon: LocationOn,
+    component: Maps,
+    layout: "/admin",
+  },
+  {
+    path: "/report",
     name: "Reports",
     rtlName: "طباعة",
     icon: LibraryBooks,
-    component: Typography,
+    component: Report,
     layout: "/admin",
   },
  

@@ -17,7 +17,9 @@ import styles from "../assets/jss/material-dashboard-react/layouts/adminStyle.js
 
 import bgImage from "../assets/img/sidebar-4.jpg";
 import UserProfile from "../views/UserProfile/UserProfile.js";
-// import logo from "assets/img/Logo_white.png";
+ import logo from "../assets/img/logo.svg";
+
+// import AllInclusive  from  "@material-ui/icons/AllInclusive";;
 
 // import UserProfile from "../views/UserProfile"
 
@@ -38,7 +40,7 @@ const switchRoutes = (
      
       return null;
     })}
-    {/* <Redirect from="/admin" to="/admin/dashboard" /> */}
+    <Redirect from="/dashboard" to="/dashboard/admin%20/report" />
   </Switch>
 );
 
@@ -101,13 +103,13 @@ export default function Admin({ ...rest }) {
       <Sidebar
         routes={routes}
         logoText={"Scavengers"}
-        // logo={logo}
+        logo={logo}
         image={image}
         handleDrawerToggle={handleDrawerToggle}
         open={mobileOpen}
         color={color}
         {...rest}
-      />
+      ></Sidebar>
       <div className={classes.mainPanel} ref={mainPanel}>
       <Box m={4} pt={3}>
         <Navbar
