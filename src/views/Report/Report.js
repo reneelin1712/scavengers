@@ -90,7 +90,7 @@ const dataProfit = {
 
 const dataWaste = {
 	labels: [
-    'Harzard',
+    'Hazard',
 		'Recyclable',
 		'Reusable'
 		
@@ -122,7 +122,7 @@ export default function Dashboard() {
             <CardIcon color="warning">
                 <Public />
               </CardIcon>
-              <p className={classes.cardCategory}>Cost Down</p>
+              <p className={classes.cardCategory}>Cost Reduced</p>
               <h3 className={classes.cardTitle}>
                 $5,000 <small></small>
               </h3>
@@ -144,7 +144,7 @@ export default function Dashboard() {
               <CardIcon color="success">
                 <Store />
               </CardIcon>
-              <p className={classes.cardCategory}>Revenue</p>
+              <p className={classes.cardCategory}>Revenue Gained</p>
               <h3 className={classes.cardTitle}>$4,245</h3>
             </CardHeader>
             <CardFooter stats>
@@ -178,8 +178,8 @@ export default function Dashboard() {
               <CardIcon color="info">
                 <DeleteSweep/>
               </CardIcon>
-              <p className={classes.cardCategory}>Processed Waste</p>
-              <h3 className={classes.cardTitle}>100 Ton</h3>
+              <p className={classes.cardCategory}>Waste Processed</p>
+              <h3 className={classes.cardTitle}>100 Tons</h3>
             </CardHeader>
             <CardFooter stats>
               <div className={classes.stats}>

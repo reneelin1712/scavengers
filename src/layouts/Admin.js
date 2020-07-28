@@ -17,7 +17,7 @@ import styles from "../assets/jss/material-dashboard-react/layouts/adminStyle.js
 
 import bgImage from "../assets/img/sidebar-4.jpg";
 import UserProfile from "../views/UserProfile/UserProfile.js";
- import logo from "../assets/img/logo.svg";
+ import logo from "../assets/img/logo.jpeg";
 
 // import AllInclusive  from  "@material-ui/icons/AllInclusive";;
 
