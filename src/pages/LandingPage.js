@@ -69,7 +69,7 @@ const LandingPage= (props) =>{
               <Button
                 color="danger"
                 size="lg"
-                href="https://www.youtube.com/watch?v=60vDnOeAcoA"
+                href="https://youtu.be/1rR-XTfmFYY"
                 target="_blank"
                 rel="noopener noreferrer"
               >

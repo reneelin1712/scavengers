@@ -65,7 +65,7 @@ export default function TeamSection() {
                                 <img src={cheah} alt="..." className={imageClasses} />
                             </GridItem>
                             <h2 className={classes.cardTitle} style={{fontSize: '1.5rem'}}>
-                               Cheah Xiang
+                               Zhong Xiang Cheah
                                 <br />
                                 <small className={classes.smallTitle}>CEO</small>
                             </h2>
